@@ -50,3 +50,41 @@ html {
     transform: scale(1.2);
 }
 
+.description {
+    color: white;
+    font-size: 15pt;
+    align-self: flex-end;
+}
+
+.menu-item {
+    padding: 1em;
+    border-bottom: 2px solid gold;
+}
+
+.menu-name {
+    color: white;
+    font-size: 20pt;
+    font-style: italic;
+}
+
+.menu-ingredients {
+    color: white;
+    font-size: 15pt;
+}
+
+.menu-price {
+    color: white;
+    font-size: 13pt;
+}
+
+
+.hours, .phone, .email {
+    color: white;
+    font-size: 20pt;
+    font-style: italic;
+    padding: .15em;
+}
+
+.email {
+    border-bottom: 2px solid gold;
+}

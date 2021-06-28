@@ -15,7 +15,10 @@ function renderHome() {
     name.textContent = "pizza deliziosa";
     name.classList.add('name')
     bulkContent.appendChild(name);
-    
+    let description = document.createElement('p');
+    description.classList.add('description');
+    description.textContent = 'Experience a refined take on classic Italian cuisine';
+    bulkContent.appendChild(description);
 }
 
 export {renderHome}

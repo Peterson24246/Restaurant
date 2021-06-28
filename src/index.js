@@ -2,6 +2,8 @@
 
 import {renderNavbar} from './navbar.js';
 import {renderHome} from './home.js';
+import {renderMenu} from './menu.js';
+import {renderAbout} from './about.js';
 import './reset.css';
 import './style.css';
 
